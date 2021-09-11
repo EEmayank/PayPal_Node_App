@@ -9,8 +9,8 @@ const data = require("./store.json")
 
 paypal.configure ({
     "mode" : "sandbox",
-    "client_id" : "AUL0AttZkhpE4sex44rx9pIho-KzRo984ql--tTGBRrt9d0AgHV66LpqZTdxn9eEdSwPybvUo93fL4Kg",
-    "client_secret" : "ELPbNw5IBZ9g2GrUr-RTm78QGOkH7_EL2MDeKQzqM3PiyG4lWDfDMMo5LvTK_BYahDPFnLVKLdH0Xmd0"
+    "client_id" : "",
+    "client_secret" : ""
 })
 
 app.set("view engine", "ejs")
